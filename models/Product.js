@@ -7,6 +7,7 @@ const productSchema = new mongoose.Schema({
   category: { type: String, required: true },
   sizes: [{ type: String }],
   stockLevels: [{ size: String, stock: Number }],
+  description: { type: String, required: false },
 });
 
 const Product = mongoose.model("Product", productSchema);
