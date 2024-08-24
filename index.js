@@ -1,11 +1,22 @@
+require("dotenv").config();
+
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const productRoutes = require("./routes/productRoutes");
 
 const app = express();
+
+const path = require("path");
+app.use(express.static(path.join(__dirname, "public")));
+
+app.use(
+  cors({
+    origin: "http://localhost:4200",
+  })
+);
+
 app.use(express.json());
-app.use(cors());
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
