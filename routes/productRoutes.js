@@ -9,8 +9,8 @@ router.get("/products", async (req, res) => {
 
     let query = {};
 
-    console.log("Search Term:", search); // Add this to log the search term
-    console.log("Query:", query); // Log the query being sent to MongoDB
+    console.log("Search Term:", search); // Logs the search term
+    console.log("Query:", query); // Logs the query being sent to MongoDB
 
     // Filter by category
     if (category) {
