@@ -28,6 +28,7 @@ router.get("/products", async (req, res) => {
     }
 
     let products = Product.find(query);
+    console.log(products);
 
     // Sort by price
     if (sort) {
@@ -39,6 +40,7 @@ router.get("/products", async (req, res) => {
     }
 
     const result = await products.exec();
+    console.log(result);
     res.json(result);
   } catch (err) {
     res.status(500).json({ message: err.message });

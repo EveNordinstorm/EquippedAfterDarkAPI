@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/fda18220-e01c-413c-b598-48e177ba85a2/resourceGroups/EquippedAfterDarkRG/providers/Microsoft.Web/sites/equippedafterdark",
+  "appService.deploySubpath": "."
+}
