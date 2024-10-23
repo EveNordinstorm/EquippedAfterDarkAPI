@@ -1,0 +1,22 @@
+[
+    {
+        "category": "Women",
+        "image": "assets/horizontal-cards-01.jpg"
+    },
+    {
+        "category": "Men",
+        "image": "assets/horizontal-cards-02.jpg"
+    },
+    {
+        "category": "New",
+        "image": "assets/horizontal-cards-03.jpg"
+    },
+    {
+        "category": "Sale",
+        "image": "assets/horizontal-cards-04.jpg"
+    },
+    {
+        "category": "Inspiration",
+        "image": "assets/horizontal-cards-05.jpg"
+    }
+]

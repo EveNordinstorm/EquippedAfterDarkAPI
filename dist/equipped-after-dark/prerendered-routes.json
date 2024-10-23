@@ -1,0 +1,16 @@
+{
+  "routes": [
+    "/account",
+    "/be-inspired",
+    "/cart",
+    "/home",
+    "/login",
+    "/new",
+    "/products-men",
+    "/products-women",
+    "/profile",
+    "/register",
+    "/search",
+    "/wishlist"
+  ]
+}
